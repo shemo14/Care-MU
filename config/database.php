@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => 'MYSQL5018.Smarterasp.net',
             'port' => env('DB_PORT', '3306'),
-            'database' => 'hospital',
-            'username' => 'root',
-            'password' => '',
+            'database' => 'db_a09f67_db',
+            'username' => 'a09f67_db',
+            'password' => 'mo7amedshams',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
